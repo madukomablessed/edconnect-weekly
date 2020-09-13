@@ -1,0 +1,20 @@
+{
+	"name": "edconnect",
+	"version": "1.0.0",
+	"description": "Edconnect project - July 2020 batch",
+	"main": "./index.js",
+	"scripts": {
+		"dev": "nodemon ./index.js",
+		"start": "cross-env NODE_ENV=production node ./index.js"
+	},
+	"author": "edconnect",
+	"license": "MIT",
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"cross-env": "^7.0.2",
+		"nodemon": "^2.0.4"
+	}
+}

@@ -1,0 +1,60 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Week 6 Challenge</title>
+
+    <style>
+        .error {
+            color:red;
+        }
+
+        .success {
+            color: green;
+        }
+
+        .result {
+            margin-bottom:20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+    
+        <div class="result success">
+            <p>
+                Your entry was processed successfully
+            </p>
+        </div>
+
+        
+  <form action="/action_page.php">
+    <label for="fname">First Name:</label><br>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname"> Matric Number</label><br>
+    <input type="text" id="matric_number" name="matric_no"><br><br>
+    <label for="lname">Program:</label><br>
+    <select name="cars" id="cars">
+     <option value="volvo">Computer Science</option>
+        <option value="volvo">Computer Information Systems</option>
+        <option value="volvo">Computer Technology</option>
+   </select><br><br>
+       
+    <input type="submit" value="Submit">
+  </form> 
+        </section>
+
+
+        <section style="margin-top:30px">
+            <textarea readonly rows="5" cols="30" id="display">
+
+            </textarea>
+        </section>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
